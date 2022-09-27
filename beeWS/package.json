@@ -1,0 +1,17 @@
+{
+  "name": "beexws",
+  "version": "1.0.25",
+  "description": "Exchange Websockets with possible auth and private channel subs",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "decimal.js": "^10.2.0",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

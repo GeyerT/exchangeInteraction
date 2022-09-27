@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ws": "^7.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker system prune -f && docker-compose build && docker-compose up -d",
+    "stop": "docker-compose down",
+    "deploy": "docker-compose down && docker system prune -f && docker-compose build && docker-compose up -d"
+  },
+  "license": "UNLICENSED"
+}
